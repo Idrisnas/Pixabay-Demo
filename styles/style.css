@@ -1,0 +1,973 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+
+    background-image: url(../img/new\ logo.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    position: relative;
+
+}
+
+.up {
+    position: absolute;
+    width: 100%;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.565);
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.head {
+
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 14px;
+    font-weight: 900;
+    /* position: relative; */
+}
+
+
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+.head-img {
+    width: 120px;
+    cursor: pointer;
+    /* height: 120px; */
+
+}
+
+.gap-10 {
+    gap: 20px;
+}
+
+.links li,
+a {
+    text-decoration: none;
+    color: white !important;
+    list-style: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: transparent;
+}
+
+.links a:hover {
+    background-color: rgba(128, 128, 128, 0.483);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+
+    gap: 5px;
+}
+
+.btn {
+    background-color: rgba(128, 128, 128, 0.483);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.btn:hover {
+    border: 1px solid white;
+}
+
+.btn-1 {
+
+    border-radius: 24px;
+    height: 40px;
+    padding: 0 16px;
+    background: #00ab6b;
+    color: #fff;
+    border: none;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.btn-1 img {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-1:hover {
+    background-color: #218838;
+}
+
+.head-text {
+    margin-top: 20px;
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 1;
+}
+
+.head-text h3 {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.head-text p {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.white {
+    margin-top: 40px;
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 20px;
+
+
+}
+
+.input-cont {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.white button {
+    font-size: 14px;
+    color: #6d6d6d;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.icon {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-1 {
+    width: 30px;
+    height: 30px;
+}
+
+.icon-1:hover {
+    border-radius: 50px;
+    background-color: #6d6d6d;
+}
+
+.search {
+    width: 100%;
+    padding: 10px;
+    border: none !important;
+    border-radius: 4px;
+
+}
+
+.home-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+
+}
+
+.btn-home {
+    border-radius: 24px;
+    height: 40px;
+    padding: 0 16px;
+    background-color: #fff;
+    color: rgb(158, 155, 155);
+    border: none;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.btn-home:hover {
+    background-color: rgba(128, 128, 128, 0.165);
+    border: 1px;
+}
+
+.icon-home {
+    width: 15px;
+    height: 15px;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.background {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+    /* margin-top: 50px; */
+    padding: 20px;
+
+    /* border-right: 1px solid; */
+
+}
+
+.btn-back {
+    font-size: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid rgb(208, 204, 204);
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn-back:hover {
+    border: 1px solid;
+}
+
+.icon-2 {
+    width: 20px;
+    cursor: pointer;
+    height: 20px;
+}
+
+.edi {
+    width: 20%;
+
+
+}
+
+.Editor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Editor button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid rgb(208, 204, 204);
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.heart {
+    display: flex;
+    gap: 30px;
+    margin: 60px 20px 00px 30px;
+    justify-content: center;
+    line-height: 1.5em;
+    padding: 20px;
+    border-top: 1px solid gainsboro;
+}
+
+.heart-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #00ab6c46;
+    width: 60px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.black-p {
+    font-weight: 700;
+    color: black;
+}
+
+.gray-p {
+    font-size: 14px;
+    color: #656f79;
+}
+
+.green-p {
+    font-size: 14px;
+    color: #00ab6b;
+    ;
+    width: 18%;
+    padding: 5px;
+
+}
+
+.green-p:hover {
+    cursor: pointer;
+    background-color: #00ab6c46;
+    border-radius: 10px;
+}
+
+footer {
+    border-top: 1px solid gainsboro;
+}
+
+.footer {
+    padding: 20px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.pixa-bay {
+    line-height: 1.8em;
+    width: 60%;
+}
+
+.footer-links {
+    display: flex;
+    /* background-color: blueviolet; */
+    width: 40%;
+    line-height: 1.9em;
+    color: #656f79;
+    margin: 0 !important;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.new {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.new span {
+    border-radius: 4px;
+    background: #00ab6b;
+    height: 16px;
+    flex-shrink: 0;
+    padding: 0 4px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+}
+
+.footer-links li,
+a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    color: #656f79 !important;
+    /* background-color: red; */
+}
+
+.dis {
+    /* text-align: center; */
+    /* background-color: rgb(47, 155, 62); */
+    margin-bottom: 0 !important;
+
+}
+
+.footer-links ul {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0 !important;
+   
+}
+
+.footer-links h3 {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 0px 35px;
+    font-size: 14px;
+    color: #191b26;
+}
+
+
+.community {
+    
+    padding: 0 !important;
+    margin: 0 !important;
+   text-align: center;
+    margin-bottom: 0 !important;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.socials img {
+
+    width: 20px;
+    height: 20px;
+}
+
+.socials img:hover {
+    border-radius: 50px;
+    background-color: #218838;
+    
+}
+
+.footer-bottom {
+
+    background-color: #f7f7f7;
+
+    padding: 24px;
+    font-size: 12px;
+    color: #656f79;
+    text-align: center;
+}
+
+.about {
+    /* background-color: aqua; */
+}
+
+.horse-1 {
+    background-image: url(../img/horse-8414411_640.jpg);
+}
+
+.horse {
+    /* background-color: #00ab6b; */
+    width: 100%;
+    height: 600px;
+    /* background-image: url(../img/horse-8414411_640.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+}
+
+.lion-1 {
+    background-image: url('https://cdn.pixabay.com/photo/2024/08/05/21/19/lion-8947711_1280.jpg');
+}
+
+.lion {
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    height: 400px
+        /* position: relative !important; */
+
+}
+
+.tiger {
+    background-image: url('https://cdn.pixabay.com/photo/2018/03/04/17/23/tiger-3198598_640.jpg');
+}
+
+.children {
+    background-image: url('	https://cdn.pixabay.com/photo/2016/11/28/10/48/child-1864718_640.jpg');
+
+}
+
+.cable {
+    background-image: url('https://cdn.pixabay.com/photo/2023/11/01/11/15/cable-car-8357178_640.jpg');
+}
+
+.sunrise {
+    background-image: url('https://cdn.pixabay.com/photo/2016/05/22/19/48/sunrise-1409090_640.jpg');
+}
+
+    {
+    background-image: url('');
+}
+
+.dove {
+    background-image: url('https://cdn.pixabay.com/photo/2024/01/16/19/56/seagull-8512995_640.jpg');
+}
+
+.bird {
+    background-image: url('https://cdn.pixabay.com/photo/2024/01/19/18/08/bird-8519547_640.jpg');
+}
+
+.mountain {
+    background-image: url('https://cdn.pixabay.com/photo/2022/01/13/00/09/austria-6934186_640.jpg');
+}
+
+.hall {
+    background-image: url('https://cdn.pixabay.com/photo/2024/02/24/00/05/concert-hall-8593024_640.jpg');
+}
+
+.leaves {
+    background-image: url('https://cdn.pixabay.com/photo/2024/07/30/10/19/leaves-8931849_640.jpg');
+}
+
+.penguine {
+    background-image: url('https://cdn.pixabay.com/photo/2024/07/05/22/30/penguin-8875750_640.jpg');
+}
+
+.art {
+    background-image: url('https://cdn.pixabay.com/photo/2024/05/19/13/26/art-deco-8772616_640.jpg');
+}
+
+.water {
+    background-image: url('https://cdn.pixabay.com/photo/2019/06/01/09/58/water-4243762_640.jpg');
+}
+
+.chrismast {
+    background-image: url('');
+}
+
+.yoga {
+    background-image: url('https://cdn.pixabay.com/photo/2024/06/21/07/46/yoga-8843808_640.jpg');
+}
+
+.draft {
+    background-image: url('https://cdn.pixabay.com/photo/2024/07/18/21/29/darts-8905121_640.jpg');
+}
+
+.peacock {
+    background-image: url('https://cdn.pixabay.com/photo/2024/07/15/16/09/bird-8897237_640.jpg');
+}
+
+.mount-2 {
+    background-image: url('https://cdn.pixabay.com/photo/2024/02/28/16/51/mountain-8602437_640.jpg');
+}
+
+.tang {
+    background-image: url('https://cdn.pixabay.com/photo/2024/07/10/20/39/tangerine-8886641_640.jpg');
+}
+
+.plant {
+    background-image: url('https://cdn.pixabay.com/photo/2024/02/21/15/09/plant-8587893_640.jpg');
+}
+
+.dog {
+    background-image: url('https://cdn.pixabay.com/photo/2024/08/05/13/17/dog-8946829_640.jpg');
+}
+
+.woman-2 {
+    background-image: url('https://cdn.pixabay.com/photo/2024/08/01/15/57/woman-8937604_640.png');
+}
+
+.monkey {
+    background-image: url('https://cdn.pixabay.com/photo/2024/02/19/13/50/monkeys-8583435_640.jpg');
+}
+
+.bird-1 {
+    background-image: url('https://cdn.pixabay.com/photo/2024/05/24/19/06/bird-8785666_640.jpg');
+}
+
+.waves {
+    background-image: url('https://cdn.pixabay.com/photo/2024/02/20/11/26/waves-8585265_640.jpg');
+}
+
+.seagull {
+    background-image: url('https://cdn.pixabay.com/photo/2023/10/17/09/01/seagull-8320687_640.jpg');
+}
+
+.treer {
+    background-image: url('https://cdn.pixabay.com/video/2024/07/14/221180_tiny.mp4');
+}
+
+.lake {
+    background-image: url('https://cdn.pixabay.com/photo/2023/12/08/20/12/lake-8438063_640.jpg');
+}
+
+.koala {
+    background-image: url('https://cdn.pixabay.com/photo/2024/07/05/08/33/koala-8874351_640.jpg');
+}
+
+.bali {
+    background-image: url('https://cdn.pixabay.com/photo/2024/06/18/21/37/bali-8838762_640.jpg');
+}
+
+.farmer {
+    background-image: url('https://cdn.pixabay.com/photo/2024/07/25/09/52/farmer-8920644_640.jpg');
+}
+
+.sunrise-2 {
+    background-image: url('https://cdn.pixabay.com/photo/2024/07/17/11/14/sunrise-8901272_640.jpg');
+}
+
+.pam {
+    background-image: url('https://cdn.pixabay.com/photo/2024/07/19/12/23/woman-8906207_640.jpg');
+}
+
+.sun-down {
+    background-image: url('https://cdn.pixabay.com/photo/2023/08/14/04/22/sunrise-8188929_640.jpg');
+}
+
+.baltic {
+    background-image: url('https://cdn.pixabay.com/photo/2022/04/30/08/27/baltic-sea-7165113_640.jpg');
+}
+
+.puppy {
+    background-image: url('https://cdn.pixabay.com/photo/2024/01/15/21/13/puppy-8510899_640.jpg');
+}
+
+.girl {
+    background-image: url('https://cdn.pixabay.com/photo/2024/07/08/05/41/girl-8880144_640.png');
+}
+
+.star {
+    background-image: url('https://cdn.pixabay.com/photo/2024/07/20/18/49/stars-8908843_640.jpg');
+}
+
+.car {
+    background-image: url('https://cdn.pixabay.com/photo/2024/01/09/14/27/truck-8497705_640.jpg');
+}
+
+.gren-strip {
+    background-image: url('https://cdn.pixabay.com/photo/2024/07/31/15/13/green-8935080_640.jpg');
+}
+
+.stream-hor {
+    background-image: url('https://cdn.pixabay.com/photo/2024/01/02/10/33/stream-8482939_640.jpg');
+}
+
+.snake-tree {
+    background-image: url('https://cdn.pixabay.com/photo/2024/07/29/02/28/snake-8928741_640.jpg');
+}
+
+.call-tree {
+    background-image: url('https://cdn.pixabay.com/photo/2024/08/01/10/18/bird-8936789_640.jpg');
+}
+
+.frog {
+    background-image: url('https://cdn.pixabay.com/photo/2024/07/12/18/00/frog-8890832_640.jpg');
+}
+
+.trumpet-tre {
+    background-image: url('https://cdn.pixabay.com/photo/2023/02/07/17/02/trumpet-7774590_640.jpg');
+}
+
+.cabin-2 {
+    background-image: url('https://cdn.pixabay.com/photo/2024/02/17/13/38/cabin-8579310_640.jpg');
+}
+
+.drink-wom {
+    background-image: url('https://cdn.pixabay.com/photo/2024/08/03/02/32/drink-8941028_640.png');
+}
+
+.basket-horse {
+    background-image: url('https://cdn.pixabay.com/photo/2023/12/15/03/11/basket-to-the-sea-8449952_640.jpg');
+}
+
+.mont {
+    background-image: url('https://cdn.pixabay.com/photo/2023/10/19/15/18/mountains-8326967_640.jpg');
+}
+
+.water-2 {
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/07/04/51/water-2600008_640.jpg');
+}
+
+.yatch {
+    background-image: url('https://cdn.pixabay.com/photo/2023/10/27/09/38/sea-8344717_640.jpg');
+}
+
+.banana-horse {
+    background-image: url('https://cdn.pixabay.com/photo/2024/01/05/17/39/banana-leaf-8489887_640.jpg');
+}
+
+.yellow {
+    background-image: url('https://cdn.pixabay.com/photo/2024/07/06/08/10/flowers-8876324_640.png');
+}
+
+.wooden {
+    background-image: url('https://cdn.pixabay.com/photo/2024/01/09/13/08/wooden-house-8497574_640.jpg');
+}
+
+
+.ocean {
+    background-image: url('https://cdn.pixabay.com/photo/2024/07/17/10/25/ocean-8901157_640.jpg');
+}
+
+.gold {
+    background-image: url('https://cdn.pixabay.com/photo/2023/05/09/01/47/gold-7980065_640.jpg');
+}
+
+.ballon {
+    background-image: url('https://cdn.pixabay.com/photo/2024/04/20/08/30/hot-air-balloon-8708066_640.jpg');
+}
+
+.san-fran {
+    background-image: url('https://cdn.pixabay.com/photo/2022/02/11/23/09/san-francisco-7008147_640.jpg');
+}
+
+.door {
+    background-image: url('https://cdn.pixabay.com/photo/2023/10/11/03/33/door-8307616_640.jpg');
+}
+
+.italy {
+    background-image: url('https://cdn.pixabay.com/photo/2023/09/05/14/39/old-8235289_640.jpg');
+}
+
+.tree {
+    width: 100%;
+    height: 230px;
+    /* position: relative; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.woman {
+    width: 100%;
+    height: 450px;
+    /* position: relative; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.storm {
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 370px;
+    /* position: relative; */
+
+
+
+}
+
+.picture {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* background-color: gray; */
+    /* display: flex; */
+    width: 100%;
+    gap: 5px;
+}
+
+menu {
+    /* background-color: black; */
+    margin: 0;
+    padding: 2rem;
+}
+
+.picture-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0rem;
+    row-gap: 10px;
+    column-gap: 0px;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.bg-icon-2 {
+    /* background-color: #edf5f2; */
+    width: 8%;
+    color: gray;
+    padding: 1rem;
+    /* background-color: gray; */
+}
+
+.bg-icon-2:hover {
+    color: white;
+
+}
+
+.bg-icon-1 {
+
+    border: 1px solid hsla(0, 0%, 100%, .4);
+    background: hsla(0, 0%, 100%, .1);
+    color: #fff;
+    width: 25px;
+    /* height: 100%; */
+    border-radius: 5px;
+}
+
+.bg-icon-1:hover {
+    border: 1px solid hsla(0, 100%, 99%, 0.993);
+
+}
+
+.flex-icons {
+    margin-top: 10px;
+    /* margin: 5px 0px 0px 5px; */
+    /* background-color: #218838; */
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+    top: 0;
+    width: 100%;
+}
+
+.book {
+    gap: 6px;
+    display: flex;
+    padding: 10px;
+
+}
+
+.book:hover {
+    cursor: pointer;
+}
+
+.big-cat {
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    color: white;
+    position: absolute;
+    top: 100%;
+    gap: 1rem;
+
+}
+
+.relative {
+    position: relative;
+    width: 100%;
+}
+
+.hover {
+    position: absolute;
+    width: 100%;
+    display: none;
+    height: 300px;
+
+    transition: 5s ease-in-out;
+
+}
+
+.lion:hover .hover {
+    display: block;
+    transition: 5s ease-in-out;
+}
+
+.hover-tree {
+    position: absolute;
+    width: 100%;
+    display: none;
+    height: 150px;
+
+    transition: 5s ease-in-out;
+
+}
+
+.tree:hover .hover-tree {
+    display: block;
+    transition: 5s ease-in-out;
+}
+
+.hover-storm {
+    position: absolute;
+    width: 100%;
+    display: none;
+    height: 270px;
+
+    transition: 5s ease-in-out;
+
+}
+
+.storm:hover .hover-storm {
+    display: block;
+    transition: 5s ease-in-out;
+}
+
+.hover-horse {
+    position: absolute;
+    width: 100%;
+    display: none;
+    height: 500px;
+
+    transition: 5s ease-in-out;
+
+}
+
+.horse:hover .hover-horse {
+    display: block;
+    transition: 5s ease-in-out;
+}
+
+.hover-woman {
+    position: absolute;
+    width: 100%;
+    display: none;
+    height: 300px;
+
+    transition: 5s ease-in-out;
+
+}
+
+.woman:hover .hover-woman {
+    display: block;
+    transition: 5s ease-in-out;
+}
+
+.lion-overlay {
+    background: rgba(0, 0, 0, 0.375);
+    width: 100%;
+    height: 400px;
+}
+
+.horse-overlay {
+    background: rgba(0, 0, 0, 0.343);
+    width: 100%;
+    height: 600px;
+}
+
+.storm-overlay {
+    background: rgba(0, 0, 0, 0.463);
+    width: 100%;
+    height: 370px;
+}
+
+.tree-overlay {
+    background: rgba(0, 0, 0, 0.375);
+    width: 100%;
+    height: 230px;
+}
+
+.woman-overlay {
+    background: rgba(0, 0, 0, 0.814);
+    width: 100%;
+    height: 450px;
+}
